@@ -15,7 +15,7 @@ This repository contains the systematic troubleshooting, fault resolution, and v
 * **Fix Applied:** Configured network interface and wireless connection to Home Gateway (`DLC100`).
 * **Verification:** Successful ICMP ping replies and populated ARP table for IP range `192.168.25.x`.
 
-![Scenario 1 Verification](Debug/scenario_1/Screenshot 2026-07-29 211513.png)
+![Scenario 1 Verification](Debug/scenario_1/Screenshot%202026-07-29%20211513.png)
 ---
 
 ### Scenario 2: Smart House with Switch, AP, and Server
@@ -24,7 +24,7 @@ This repository contains the systematic troubleshooting, fault resolution, and v
 * **Fix Applied:** Configured IP addressing (`192.168.1.11`), gateway routes, and wireless parameters across access point clients.
 * **Verification:** Full connectivity verified via ping tests from `PC0` (`192.168.1.11`) to all connected IoT nodes (`192.168.1.12`, `13`, `14`, `16`).
 
-![Scenario 2 Verification](Debug/scenario_2/Arp and bug fix in iot webcam iot4.png)
+![Scenario 2 Verification](Debug/scenario_2/Arp%20and%20bug%20fix%20in%20iot%20webcam%20iot4.png)
 ---
 
 ### Scenario 3: Fire Extinguisher & Safety System
@@ -33,7 +33,7 @@ This repository contains the systematic troubleshooting, fault resolution, and v
 * **Fix Applied:** Installed/Switched the interface module to a compatible wireless module (`PT-IOT-NM-1W`) and configured network settings.
 * **Verification:** Successful ping execution and full ARP resolution across all IoT safety nodes (`192.168.25.100` – `107`).
 
-![Scenario 3 Verification](Debug/scenario_3/Table of scenario arp.png)
+![Scenario 3 Verification](Debug/scenario_3/Table%20of%20scenario%20arp.png)
 
 ---
 
@@ -43,7 +43,7 @@ This repository contains the systematic troubleshooting, fault resolution, and v
 * **Fix Applied:** Installed the correct wireless module (`PT-IOT-NM-1W`) on the RFID Card and re-established association with `DLC100`.
 * **Verification:** Ping test from `Laptop0` (`192.168.25.102`) to RFID Card (`192.168.25.100`) returned 0% packet loss with active dynamic ARP entry.
 
-![Scenario 4 Verification](Debug/scenario_4/Table of ARP.png)
+![Scenario 4 Verification](Debug/scenario_4/Table%20of%20ARP.png)
 
 ---
 
